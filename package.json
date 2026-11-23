@@ -1,0 +1,19 @@
+{
+  "name": "patina-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "铜雕着色与风化推演系统 (TypeScript + WebGL2)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "tsx tests/curvature.test.ts && tsx tests/decimate-quality.test.ts && tsx tests/pipeline.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
